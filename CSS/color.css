@@ -1,0 +1,20 @@
+:root{
+    --color1: var(--basic-700, #2E3A59);
+    --color2: var(--basic-600, #8F9BB3);   
+    --color3: var(--basic-800, #222B45);
+    --color4: var(--text-color-accent-link, #36F);
+    --color5: var(--basic-500, #C5CEE0);
+    --color6: var(--basic-400, #E4E9F2);
+    --danger-500: #FF3D71;
+    --color8: var(--text-color-default-dark, #222B45);
+    --color9: var(--basic-300, #EDF1F7);
+
+    --background1: var(--pimary-500-default, #36F);
+    --background2: var(--danger-400, #FF708D);
+    --background5: var(--text-color-white-ag, #FFF);
+    --background7: var(--basic-200, #F7F9FC);
+    --background8: var(--danger-100, #FFF2F2);
+    --background9: var(--transparent-basic-white-8, #ffffff14);
+    --background10: var(--transparent-basic-white-16, #ffffff29);
+    --background11: var(--basic-color,#8F9BB3);
+}
