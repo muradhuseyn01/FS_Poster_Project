@@ -1,13 +1,14 @@
 :root{
-    --color1: var(--basic-700, #2E3A59);
-    --color2: var(--basic-600, #8F9BB3);   
-    --color3: var(--basic-800, #222B45);
-    --color4: var(--text-color-accent-link, #36F);
-    --color5: var(--basic-500, #C5CEE0);
-    --color6: var(--basic-400, #E4E9F2);
+  
+    --color1: #2E3A59;
+    --color2: #8F9BB3;
+    --color3: #222B45;
+    --color4: #36F;
+    --color5: #C5CEE0;
+    --color6:  #E4E9F2;
     --danger-500: #FF3D71;
-    --color8: var(--text-color-default-dark, #222B45);
-    --color9: var(--basic-300, #EDF1F7);
+    --color8: #222B45;
+    --color9: #EDF1F7;
 
     --background1: var(--pimary-500-default, #36F);
     --background2: var(--danger-400, #FF708D);

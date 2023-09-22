@@ -2,7 +2,7 @@
     width: 100%;
     flex-shrink: 0;
     background-color: var(--text-color-white-ag);
-    padding: 0 112px;
+    padding: 0 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,6 @@
 
     .nav-icon {
         display: flex;
-        width: 154px;
         height: 44px;
         justify-content: center;
         align-items: center;
@@ -38,17 +37,17 @@
      .burger-menu{
         width: 50%;
         background-color: var(--background5);
-        transform: translateX(-600%);
-        transition-property: all;
+        transform: translateY(-600%);
+        transition-property: transform;
         transition-duration: 2s;
-        transition-timing-function: ease-in-out;
+        transition-timing-function: ease-in-out;   
+        margin-top: 280px;
         
         >img{
            padding: 18px;
            cursor: pointer;
         }
         .burger-container{
-          
             >ul li a{
                 font-size: 16px;
                 font-weight: 400;
@@ -85,10 +84,11 @@
     }
 
     .nav-href {
-        display: inline-flex;
+        display: flex;
         justify-content: center;
         align-items: center;
-        gap: 48px;
+        gap: 48px;  
+        padding-right: 80px;
 
         >div {
             position: relative;
@@ -122,9 +122,6 @@
 
     }
     
-
-
-
     .btn-head>img {
         display: none;
     }
@@ -443,26 +440,11 @@ form {
         align-items:center;
         padding: 30px 0;
 
-        >.check {
-        width: 30px;
-        height: 30px;
-        border-radius: 3px;
-        color: var(--color6);
-        background-color: var(--background1);
-        border: 0px solid var(--basic-500);
-
-        >i {
-            width: 8px;
-            height: 8px;
-            margin: 6px;
-        }
-    }
-
     >p{
         font-size: 14px;
         font-weight: 400;
         color: var(--color1);
-        padding-left: 17px;
+        padding-left: 10px;
 
         >span {
             font-size: 14px;
@@ -583,7 +565,7 @@ form {
         width: 374px;
         height: 416px;
         box-shadow: 0px 16px 32px 0px rgba(118, 127, 154, 0.08);
-        transition-property: all;
+        transition-property: transform;
         transition-duration: 4s;
         transition-timing-function: linear;
 
@@ -889,16 +871,18 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 60px;
-        padding: 0;
+        gap: 40px;
+        padding:0;
 
         .nav-href {
             display: none;
         }
         .nav-icon {
-            width: 40%;
+            width: 36%;
             display: flex;
             justify-content: space-between;
+            gap: 5px;
+            
 
             >img:nth-child(1) {
                 display: inline-block;
@@ -906,9 +890,10 @@ footer {
             }
             .burger-menu{
              width: 150%;
+             
             }
             >img:hover~.burger-menu{
-             transform: translateX(0);
+             transform: translateY(0);
             }
 
 
@@ -1025,6 +1010,10 @@ footer {
             >img{
                 width: 100%;
             }
+            transition: none;
+        }
+        .cards:hover img{
+            transform: none;
         }
         .cards-info{
             width: 100%;
